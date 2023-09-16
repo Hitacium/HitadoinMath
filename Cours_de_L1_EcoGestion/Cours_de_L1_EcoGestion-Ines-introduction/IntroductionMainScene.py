@@ -3,14 +3,14 @@ from manim import *
 
 class CreateCircle(Scene):
     def construct(self):
-        circle = Circle()  # create a circle
-        circle.set_fill(PINK, opacity=0.75)  # set the color and transparency
+        circle = Circle()  # create a circle mobject
+        circle.set_fill(PINK, opacity=0.75)  # set the color and opacity of the circle
         area = MathTex(r"A = \pi r^2")
         self.play(Create(circle), Write(area), run_time = 2)  # show the circle on screen and the Tex object
         self.wait(2)
         self.play(FadeOut(circle, area))
 
-class MovingFrameBox(Scene): # manim doc exemples
+class MovingFrameBox(Scene): # this class is a manim doc exemple
     def construct(self):
         text=MathTex(
             "\\frac{d}{dx}f(x)g(x)=","f(x)\\frac{d}{dx}g(x)","+",
@@ -28,7 +28,7 @@ class MovingFrameBox(Scene): # manim doc exemples
         )
         self.wait()
 
-class PolygonOnAxes(Scene):
+class PolygonOnAxes(Scene): # this class is a manim doc exemple
     def get_rectangle_corners(self, bottom_left, top_right):
         return [
             (top_right[0], top_right[1]),
