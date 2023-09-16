@@ -1,0 +1,1 @@
+manim -t -qh -p "le fichier" -a

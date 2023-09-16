@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/PolygonOnAxes/3419181792_2420559690_91723421.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/PolygonOnAxes/1250006731_495941269_3236927445.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/PolygonOnAxes/1250006731_1439653764_2731675212.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/PolygonOnAxes/1250006731_670165307_1479480716.mov'
