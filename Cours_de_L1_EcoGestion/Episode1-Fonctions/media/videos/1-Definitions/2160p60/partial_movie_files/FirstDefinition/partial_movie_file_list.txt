@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2231951661_3475400304_223132457.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_345352296_2464271186.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_2572519022_2150181962.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_190800790_420635545.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_2944578351_2812965227.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_345352296_829799126.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_980865047_3775986761.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_190800790_2535613176.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_3356711946_3208811821.mov'
+file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Cours_de_L1_EcoGestion/Episode1-Fonctions/media/videos/1-Definitions/2160p60/partial_movie_files/FirstDefinition/2468843356_190800790_4244373348.mov'
