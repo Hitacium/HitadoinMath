@@ -6,11 +6,11 @@ class CreateCircle(Scene):
         circle = Circle()  # create a circle
         circle.set_fill(PINK, opacity=0.75)  # set the color and transparency
         area = MathTex(r"A = \pi r^2")
-        self.play(Create(circle), Write(area), run_time = 2)  # show the circle on screen
+        self.play(Create(circle), Write(area), run_time = 2)  # show the circle on screen and the Tex object
         self.wait(2)
         self.play(FadeOut(circle, area))
 
-class MovingFrameBox(Scene):
+class MovingFrameBox(Scene): # manim doc exemples
     def construct(self):
         text=MathTex(
             "\\frac{d}{dx}f(x)g(x)=","f(x)\\frac{d}{dx}g(x)","+",
