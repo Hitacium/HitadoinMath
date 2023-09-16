@@ -7,7 +7,6 @@ class RappelEnsemble(Scene):
             r"\mathbb{N}\subset\mathbb{Z}\subset\mathbb{D}\subset\mathbb{Q}\subset\mathbb{R}",
         ).scale(2)
         listIncl.move_to(3 * UP)
-
         self.play(Write(listIncl), run_time=2)
 
         self.wait(4)
