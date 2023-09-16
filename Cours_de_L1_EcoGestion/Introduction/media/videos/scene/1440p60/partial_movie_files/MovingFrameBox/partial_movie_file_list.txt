@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/MovingFrameBox/3419181792_3873181618_223132457.mov'
-file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/MovingFrameBox/1250006731_2878145767_3882842426.mov'
-file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/MovingFrameBox/1250006731_3315967912_3691492743.mov'
-file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/MovingFrameBox/1250006731_1855669707_123056520.mov'
-file 'file:F:/Programming_Projects/Python_Projects/Manim_Projects/HitadoinMath/Ines/media/videos/scene/1440p60/partial_movie_files/MovingFrameBox/1250006731_3315967912_156926408.mov'
