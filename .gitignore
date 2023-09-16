@@ -28,6 +28,7 @@ MANIFEST
 
 # Medias Folders
 Cours_de_L1_EcoGestion/Episode1-Fonctions/media/
+media/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
