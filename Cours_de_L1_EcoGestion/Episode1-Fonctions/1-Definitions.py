@@ -113,15 +113,15 @@ class RappelEnsemble(Scene):  # notes about ensembles
             .add_coordinates()
             .scale(0.5)
         )
-        dot_axes = Dot(axe.coords_to_point(1, 2), color=GREEN)
         lines = axe.get_lines_to_point(axe.c2p(1, 2))
+        dot_axes = Dot(axe.coords_to_point(1, 2), color=GREEN)
         tip_text = (
             MathTex(r"(m, n)").scale(0.5).next_to(dot_axes.get_center(), 0.5 * UR)
         )
 
         self.play(
             Write(
-                VGroup(axe, dot_axes, lines, tip_text)
+                VGroup(axe, lines, dot_axes, tip_text)
                 .next_to(defQ, DOWN)
                 .move_to(2 * RIGHT)
             ),
@@ -141,8 +141,8 @@ class RappelEnsemble(Scene):  # notes about ensembles
             )
 
             self.play(
-                dot_axes.animate.move_to(target_dot.get_center()),
                 lines.animate.become(target_lines),
+                dot_axes.animate.move_to(target_dot.get_center()),
                 tip_text.animate.move_to(target_tip_text.get_center()),
                 run_time=1,
             )
