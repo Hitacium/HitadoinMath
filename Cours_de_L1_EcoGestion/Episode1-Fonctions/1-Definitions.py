@@ -99,10 +99,10 @@ class RappelEnsemble(Scene):  # notes about ensembles
             .scale(1.25)
         )
         self.play(Write(couple_m_n[0]), run_time=1)
-        self.wait(2)
+        self.wait(1)
         self.play(Write(couple_m_n[1]), run_time=1)
 
-        self.wait(3)
+        self.wait(5)
 
         axe = (  # explanation axe with tip text and dot axes with lines
             Axes(
@@ -127,7 +127,8 @@ class RappelEnsemble(Scene):  # notes about ensembles
             ),
             run_time=1,
         )
-        self.wait(1)
+
+        self.wait(3)
 
         for i in range(4):  # randomize the (m,n) movement
             m = randint(1, 6)
@@ -156,6 +157,17 @@ class RappelEnsemble(Scene):  # notes about ensembles
         )
 
         self.wait(2)
+
+
+class RappelEnsembleBis(Scene):
+    def construct(self):
+        defR = MathTex(
+            r"\mathbb{R}", r"= \{\pi, e, \ln, \cos(\dfrac{\pi}{4}), \sqrt{2}, \ldots\}"
+        ).scale(2)
+        self.play(Write(defR[0]), run_time=1)
+        self.wait(3)
+        self.play(Write(defR[1]), run_time=1)
+        self.wait(1)
 
 
 class FirstDefinition(Scene):  # the scene of the first definition
