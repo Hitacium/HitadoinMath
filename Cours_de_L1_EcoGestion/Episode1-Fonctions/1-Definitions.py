@@ -184,7 +184,7 @@ class FirstDefinition(Scene):  # the scene of the first definition
             r"(q_1,q_2)\in \mathbb{Z}"
         )  # precise that q1 and q2 are relative numbers
         q1_q2_inZ.next_to(def_of_q1_and_q2, DOWN)
-        self.play(Write(q1_q2_inZ), run_time=0.5)
+        self.play(Write(q1_q2_inZ), run_time=1)
 
         self.wait(2)
 
@@ -199,7 +199,7 @@ class FirstDefinition(Scene):  # the scene of the first definition
             r"(p_1,p_2)\in \mathbb{Q}"
         )  # precise that q1 and q2 are relative numbers
         p1_p2_inQ.next_to(def_of_p1_and_p2, DOWN)
-        self.play(Write(p1_p2_inQ), run_time=0.5)
+        self.play(Write(p1_p2_inQ), run_time=1)
 
         self.wait(2)
 
@@ -207,17 +207,12 @@ class FirstDefinition(Scene):  # the scene of the first definition
             r"\text{On notera alors } R = q_1\times p_1 + q_2\times p_2 \text{ le revenu total obtenu.}"
         )
         Everything = VGroup(
-            def_of_q1_and_q2,
-            def_of_p1_and_p2,
             p1_p2_inQ,
+            def_of_p1_and_p2,
             q1_q2_inZ,
+            def_of_q1_and_q2,
         )
-        self.play(
-            ReplacementTransform(
-                Everything,
-                Total,
-            ),
-            run_time=2,
-        )
+        self.play(Unwrite(Everything, reverse=True), run_time=0.75)
 
+        self.play(Write(Total), run_time=2)
         self.wait(2)
