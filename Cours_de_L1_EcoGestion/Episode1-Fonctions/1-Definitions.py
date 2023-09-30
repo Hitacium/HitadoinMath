@@ -1,7 +1,6 @@
 from manim import *
 from random import *
 
-
 class RappelEnsemble(Scene):  # notes about ensembles
     def construct(self):
         listIncl = (  # Inclusion chain
