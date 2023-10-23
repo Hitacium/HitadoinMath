@@ -1,6 +1,7 @@
 from manim import *
 from random import *
 
+
 class RappelEnsemble(Scene):  # notes about ensembles
     def construct(self):
         listIncl = (  # Inclusion chain
@@ -214,4 +215,103 @@ class FirstDefinition(Scene):  # the scene of the first definition
         self.play(Unwrite(Everything, reverse=True), run_time=0.75)
 
         self.play(Write(Total), run_time=2)
+        self.wait(2)
+
+
+class SecondDefinition_functionAtoB(Scene):  # the scene of the second definition 1.2
+    def construct(self):
+        def_ens = MathTex(
+            r"\text{Soient } A \text{ et } B \text{ deux ensembles quelconques.}"
+        ).scale(0.75)
+        def_ens.move_to(2 * UP)
+        self.play(Write(def_ens), run_time=1.5)
+
+        self.wait(2)
+
+        def_f = MathTex(
+            r"\text{On appelle } f : A \to B \text{ se lit } A \text{ vers } B \text{.}",
+            r"\text{ toute relation qui à chaque élément de } A \text{ associe au plus un élément de } B \text{.}",
+        ).scale(0.75)
+
+        def_f[0].next_to(def_ens, 3 * DOWN)
+        def_f[1].next_to(def_f[0], DOWN)
+        self.play(Write(def_f[0]), run_time=1.5)
+        self.play(Write(def_f[1]), run_time=1.5)
+        self.wait(2)
+
+        def_f_bis = MathTex(
+            r"A \text{ est donc } ",
+            r"\text{l'ensemble de départ}",
+            r"\text{ et } B",
+            r"\text{ l'ensemble d'arrivée.}",
+        ).scale(0.75)
+        def_f_bis.next_to(def_f[1], DOWN)
+        self.play(Write(def_f_bis[0]), Write(def_f_bis[1]), run_time=1.5)
+        self.play(Indicate(def_f_bis[1]), run_time=1.5)
+        self.wait(1)
+
+        self.play(Write(def_f_bis[2]), Write(def_f_bis[3]), run_time=1.5)
+        self.play(Indicate(def_f_bis[3]), run_time=1.5)
+
+        self.wait(1)
+
+        A_to = MathTex(r"\text{élément quelconque de } A").scale(0.75).set_color(RED)
+        A_to.next_to(def_f_bis[0], 2 * DOWN)
+        to = MathTex(r"\xrightarrow{\hspace*{50px}}").scale(1)
+        to.next_to(A_to, RIGHT)
+        B_to = (
+            MathTex(r"\text{élément de } B \text{ associé}")
+            .scale(0.75)
+            .set_color(YELLOW)
+        )
+        B_to.next_to(def_f_bis[3], 2 * DOWN)
+
+        self.play(Write(A_to), run_time=0.5)
+        self.play(DrawBorderThenFill(to), run_time=0.5)
+        self.play(Write(B_to), run_time=0.5)
+        self.wait(2)
+
+        self.play(
+            ReplacementTransform(A_to, B_to), ReplacementTransform(to, B_to), run_time=2
+        )
+        self.play(B_to.animate.move_to(-1 * UP).scale(2), rate_functions=there_and_back)
+
+        self.wait(2)
+
+        self.play(
+            FadeOut(VGroup(def_ens, def_f, def_f_bis, A_to), reverse=True),
+            run_time=1.5,
+        )
+
+        self.wait(2)
+
+        A = MathTex(r"A").scale(2).set_color(GREEN)
+        Ab = MathTex(r"x").scale(1.5).set_color(RED)
+        B = MathTex(r"B").scale(2).set_color(YELLOW)
+
+        A.move_to(2 * UL + DOWN)
+
+        B.move_to(2 * UR + DOWN)
+
+        self.play(Write(A), Write(B), run_time=1.5)
+
+        # Make a curved arrow from A to B
+        arrow = CurvedArrow(
+            A.get_center() + 1 / 2 * UP + 1 / 4 * RIGHT,
+            B.get_center() + 1 / 2 * UP,
+            angle=-TAU / 3,
+        )
+
+        self.play(Write(arrow), run_time=1.5)
+
+        # Make x follow the path of the curved arrow from A to B
+        n = 0
+        while n <= 2:
+            Ab.next_to(arrow, LEFT)
+            self.play(Write(Ab), run_time=1)
+            self.play(MoveAlongPath(Ab, arrow.copy().shift(0.5 * UP), run_time=2))
+            self.play(Unwrite(Ab), run_time=1)
+            self.wait(1)
+            n += 1
+
         self.wait(2)

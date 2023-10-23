@@ -42,4 +42,11 @@ Il est précisé que le premier semestre se contentera des réels, ce qui peut a
 
 ### 1.2. Définitions
 
-C'est en réalité maintenant que l'on se corse un peu.  
+C'est en réalité maintenant que l'on se corse un peu. Le vif du chapitre, c'est très peu dur car c'est en soit de la troisième reformulé mais si l'on ne comprends pas instantanément on est très vite laxiste.
+On te pose la définition suivante que l'on va décortiquer :
+
+Soient $A$ et $B$ deux ensembles quelconques. On appelle **fonction** $f$ de l'ensemble $A$ vers $B$ toute relation qui à chaque élément de $A$ associe au plus un élément de $B$.
+$A$ est donc l'ensemble de départ et $B$ l'ensemble d'arrivée.
+
+Vulgairement, les fonctions que l'on utilise depuis le collège, sont par définition la transformation d'un élément de l'ensemble de départ en celui d'arrivée, concrètement, on a pour tout élément de $A$ au maximum $1$ élément de $B$ associer par la fonction $f$.
+
