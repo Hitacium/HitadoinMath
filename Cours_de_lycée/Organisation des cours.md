@@ -2,8 +2,22 @@
 
 ## Organisation
 
-- Cours "magistraux" (Leçon)
-- Cours "interactifs" (Exercices et construction du cours) 
+- Cours "découverte"
+    - Format court : Vidéo montée comme un contenu de divertissement et humoristique
+    - Programme non exhaustif de manière à observer globalement le chapitre
+- Cours "magistraux"
+    - Format moyen : Vidéo montée comme un contenu divertissement mais ni trop rapide 
+    - Cours en une vidéo
+    - Traite de l'ensemble des notions du chapitre au programme
+    - Feuille d'exercices associée en description de la vidéo
+        - 5 niveaux de difficultés
+        - Aucune correction
+        - Travail d'entrainement non suffisant pour un contrôle
+- Cours "interactifs"
+    - Format long : Vidéo montée comme un cours magistral mais avec des pauses pour laisser le temps de réfléchir
+    - Cours en plusieurs vidéos, plus basées sur les méthodes que sur les notions
+    - Exercices à faire en même temps que la vidéo
+    - Compléments d'approfondissement sur le chapitre
 
 ## Première
 
