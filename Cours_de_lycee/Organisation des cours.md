@@ -2,10 +2,17 @@
 
 ## Organisation
 
-- Cours "découverte"
+- Cours de découverte
     - Format court : Vidéo montée comme un contenu de divertissement et humoristique
     - Programme non exhaustif de manière à observer globalement le chapitre
-- Cours "magistraux"
+
+- Cours interactifs
+    - Format long : Vidéo montée comme un cours magistral mais avec des pauses pour laisser le temps de réfléchir
+    - Cours en plusieurs vidéos, plus basées sur les méthodes que sur les notions
+    - Exercices à faire en même temps que la vidéo
+    - Compléments d'approfondissement sur le chapitre
+
+- Cours magistraux
     - Format moyen : Vidéo montée comme un contenu divertissement mais ni trop rapide 
     - Cours en une vidéo
     - Traite de l'ensemble des notions du chapitre au programme
@@ -13,11 +20,7 @@
         - 5 niveaux de difficultés
         - Aucune correction
         - Travail d'entrainement non suffisant pour un contrôle
-- Cours "interactifs"
-    - Format long : Vidéo montée comme un cours magistral mais avec des pauses pour laisser le temps de réfléchir
-    - Cours en plusieurs vidéos, plus basées sur les méthodes que sur les notions
-    - Exercices à faire en même temps que la vidéo
-    - Compléments d'approfondissement sur le chapitre
+
 
 ## Première
 
@@ -188,7 +191,7 @@ l’équation associée $(P(x) = (x - \alpha)(ax^2 + bx + c))$
 
 - Démonstration de l'existence et de l'unicité de la fonction exponentielle
 - Démonstration des propriétés de la fonction exponentielle
-- Monotonie de la fonction exponentielle (équatiosn et inéquations)
+- Monotonie de la fonction exponentielle (équations et inéquations)
 
 #### Chapitre 3 : Fonction trigonométriques
 

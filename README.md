@@ -1,4 +1,4 @@
-# HitadoinMath
+# Hitadoin'Math
 
 Ce répertoire sert de stockage à tous les projets de programmation de la chaîne Hitadoin'Math.
 
@@ -22,3 +22,8 @@ Cette table des matières sert à indiquer chaque dossier du répertoire, vers q
 
 - Cours de L1 Eco Gestion (privé à l'attention d'Inès)
 	- [[CL1EG Scripts]]
+- Cours de lycée 
+	- Classe de première
+		- [[Organisation des cours]]
+		- Vidéos
+			- [[Script de présentation des cours|Script de présentation des cours]]
