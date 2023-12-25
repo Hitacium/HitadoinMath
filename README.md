@@ -11,7 +11,7 @@ Vous pouvez donc utiliser mon code pour vos vidéos, mon nom dans les crédits n
 
 (Les commentaires des fichiers seront anglais, mais les nom de dossiers/fichiers en français)
 
-Il y a de forte probabilité que j'utilise aussi ce répertoire pour mes projets en cours, vous pourrez donc avoir un petit avant goût.
+Il y a de forte probabilités que j'utilise aussi ce répertoire pour mes projets en cours, vous pourrez donc avoir un petit avant goût.
 ### Manim command exemple
 
 ```manim -t -qh -p "le fichier" -a```
@@ -20,8 +20,6 @@ Il y a de forte probabilité que j'utilise aussi ce répertoire pour mes projets
 
 Cette table des matières sert à indiquer chaque dossier du répertoire, vers quelle vidéo ils font références.
 
-- Cours de L1 Eco Gestion (privé à l'attention d'Inès)
-	- [[CL1EG Scripts]]
 - Cours de lycée 
 	- Classe de première
 		- [[Organisation des cours]]
