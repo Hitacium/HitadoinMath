@@ -3,7 +3,7 @@ import os
 
 
 class Euler(Scene):
-    """Template for creating a new animation."""
+    """Euler ID animation scene"""
 
     def construct(self):
         text = MathTex(r"\mathrm{e}^{\mathrm{i}\pi}+1=0").scale(3)
