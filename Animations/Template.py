@@ -3,7 +3,7 @@ import os
 
 
 class Template(Scene):
-    """Template for creating a new animation."""
+    """Template to create a new animation"""
 
     def construct(self):
         text = Tex(r"Hello World!").scale(3)
